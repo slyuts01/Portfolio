@@ -6,21 +6,21 @@
     <title>Pirre Lotti - Finest Frensh Restaurant in London</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <header> 
-    <h1> Pierre Lotti</h1>
-    <h2> Finest french cuisine in London </h2>
-    <Img src="/logo/logo.png">logo</Img>
-    <nav>
-        <ul>
-            <li><a class="selected" href="index.html"></a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact US</a></li>    
-        </ul>
-    </nav>
-  </header>
   <body>
-    <main>
+    <header id="showcase" class="grid"> 
+      <a href="index.html"><img id="logo" src="logo/logo.png"> Website Logo</a>
+      <h1>Pierre Lotti</h1>
+      <p> Finest french cuisine in London </p>
+      <nav class="top-nav">
+          <ul class="nav-list">
+              <li><a class="selected" href="index.html"></a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact US</a></li>    
+          </ul>
+      </nav>
+    </header>
+    <main id="main">
     <div class="home">
         <video autoplay muted loop>
           <source src="video/Restaurant.mp4" type="video/mp4" />
@@ -30,7 +30,9 @@
     <div class="home-content">
      <h1>Pierre Lotti West End's Iconic Restaurant</h1>
      <div class="middle-line"></div>
-     <button> Book a table </button>
+     <form action="contact.html">
+     <button class="book" type="submit"> Book a table </button>
+    </form>
     </main>
   </body>
   <footer> Footer </footer>

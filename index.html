@@ -4,19 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Pirre Lotti - Finest Frensh Restaurant in London</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel&family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=La+Belle+Aurore&display=swap'); </style>
+</head>
   <body>
-    <header id="showcase" class="grid"> 
-      <h1>Pierre Lotti</h1>
+    <header> 
+<div class=title>
+      <h1> Pierre Lotti</h1>
       <p> Finest french cuisine in London </p>
-      <nav class="top-nav">
-          <ul class="nav-list">
-              <li><img id="logo" src="logo/logo.png" alt="Website logo"><a href="index.html"></a></li>
-              <li id="home"><a class="selected" href="index.html"></a></li>
+      
+    </div>
+     <nav>
+          <ul class="menu-items">
+              <li id="home"><a class="selected" href="index.html">Home</a></li>
               <li id="menu"><a href="menu.html">Menu</a></li>
               <li id="gallery"><a href="gallery.html">Gallery</a></li>
-              <li id="contact"><a href="contact.html">Contact US</a></li>    
+              <li id="contact"><a href="contact.html">Contact Us</a></li> 
+              <a href="index.html"></a><img id="logo" src="logo/logo.png" alt="Website logo" height="140px" weight="150px"></li>
+                 
           </ul>
       </nav>
     </header>
@@ -26,14 +32,41 @@
           <source src="video/Restaurant.mp4" type="video/mp4" />
         </video>
       </div>
-      <div class="overlay"></div>
     <div class="home-content">
      <h1>Pierre Lotti West End's Iconic Restaurant</h1>
      <div class="middle-line"></div>
      <form action="contact.html">
      <button class="book" type="submit"> Book a table </button>
-    </form>
+    </div>
+  </form>
     </main>
+    <footer> 
+      <div>
+        <h2 class="footer__headline">Navigation</h2>
+        <ul class="footer__list">
+          <li>nav 1</li>
+          <li>nav 2</li>
+          <li>nav 3</li>
+    
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer__headline">Follow Us</h2>
+        <ul class="footer__list">
+          <li>social 1</li>
+          <li>social 2</li>
+          <li>social 3</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer__headline">Contact</h2>
+        <ul class="footer__list">
+          <li>Adress</li>
+          <li>Phone</li>
+          <li>Email</li>
+          <li>Website</li>
+        </ul>
+      </div>
+    </footer>
   </body>
-  <footer> Footer </footer>
 </html>

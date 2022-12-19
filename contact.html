@@ -36,76 +36,110 @@
       <div class="containter">
         <div class="contactInfo">
           <div class="box">
-            <div class="icon"><i class="fa-regular fa-map"></i></div>
+            
             <div class="text">
               <h3><Address</h3>
-              <p>5 Merchant Square, <br>London, United Kingdom, <br>W2 1AY</p>
+              <p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.6910888697944!2d-0.17598812320171436!3d51.518883109864284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ab3c98d95fb%3A0x923b02cefd3a9f02!2s5%20Merchant%20Sq%2C%20London%20W2%201BQ!5e0!3m2!1sen!2suk!4v1671098317817!5m2!1sen!2suk" width="650" height="500" style="border: 2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="icon"><i class="fa-regular fa-map"></i></div>
+                <br>
+                5 Merchant Square, <br>London, United Kingdom,
+                 <br>W2 1AY</p>
             </div>
           </div>
           <div class="box">
             <div class="icon"><i class="fa-solid fa-voicemail"></i></div>
             <div class="text">
               <h3>Phone</h3>
-              <p>02037865012</p>
+              <p>
+                <a href="tel:02037865012">02037865012</a>
+              </p>
             </div>
           </div>
           <div class="box">
             <div class="icon"><i class="fa-regular fa-envelope" aria-hidden="true"></i></div>
             <div class="text">
               <h3>Email</h3>
-              <p>Pierre.Lotti@restaurant.com</p>
+              <p>
+                <a href="mailto:Pierre.Lotti@restaurant.com">Pierre.Lotti@restaurant.com</a>
+              </p>
             </div>
           </div>
         </div>
-        <div class="contactForm">
-          <form>
-            <h2> Send Message</h2>
-            <div class="inputBox">
-              <input type="text" name="" required="required">
-              <span>Full Name</span>
-            </div>
-            <div class="inputBox">
-              <input type="text" name="" required="required">
-              <span>Email</span>
-            </div>
-            <div class="inputBox">
-              <textarea required="required"></textarea>
-              <span>Type your Message...</span>
-            </div>
-            <div class="inputBox">
-              <input type="submit" name="" value="Send"
-            </div>
-          </form>
+          <div class="contactForm">
+            <form>
+              <h2> Book Your Table</h2>
+              <div class="inputBox">
+            
+                <input type="number" id="guests" name="total_guests" placeholder="6" min="1" max= "6" required>
+                <span>Number of Guests</span>
+              </div>
+              <div class="inputBox">
+                <input type="date" id="booking-date" name="date" required>
+                <span>Date</span>
+              </div>
+              <div class="inputBox">
+              <input type="time" id="appt" name="appt"
+               min="12:00" max="22:00" required>
+               <span>Time</span>
+              </div>
+              
+              <div class="inputBox">
+                <input type="text" placeholder="Full name" required="required">
+                <span>Full Name</span>
+              </div>
+              <div class="inputBox">
+                <input type="text" placeholder="Email"required="required">
+                <span>Email</span>
+              </div>
+              <div class="inputBox">
+                <input type="tel" placeholder="Phone" id="phone" name="phone"
+                required>
+                 <span>Phone</span>
+                </div>
+              <div class="inputBox">
+                <textarea placeholder="Type your Message..." required="required"></textarea>
+                <span>Type your Message...</span>
+              </div>
+              <div class="inputBox">
+                <input id="submit" type="submit" name="" value="Submit">
+              </div>
+            </form>
+          </div>
         </div>
+        </section>
+    
+    <footer class="page-footer"> 
+      <div class="containter-footer">
+        <div class="row text-center">
+          <div class="col-md-3">
+            <h3>Pierre Lotti <br>
+            West London</h3>
+            <p>5 Merchant Square, London, United Kingdom,W2 1AY 
+              <br>
+              <a href="mailto:Pierre.Lotti@restaurant.com">Pierre.Lotti@restaurant.com</a>
+              <br>
+              <a href="tel:02037865012">02037865012</a>
+            </p>
+          </div>
+          <div class="col-md-6.col-md-pull-3"></div>
+          <h3>Quick Links</h3>
+          <p>
+            <a href="index.html">Home</a>
+             I 
+            <a href="contact.html">Book a table</a>
+             I 
+            <a href="menu.html">Menu</a>
+          </p>
+          <h3>Follow Us</h3>
+          <a class="facebook-icon" rel="nofollow" href="https://www.facebook.com" target="_blank">
+            <img width="25px" class="img-responsive" src="logo/facebook.svg">
+          </a>
+          <a class="instagram-icon" rel="nofollow" href="https://www.instagram.com" target="_blank">
+            <img width="25px" class="img-responsive" src="logo/instagram.svg">
+          </a>
+        </div>   
       </div>
-    </section>
-    <footer> 
-        <div>
-          <h2 class="footer__headline">Navigation</h2>
-          <ul class="footer__list">
-            <li>nav 1</li>
-            <li>nav 2</li>
-            <li>nav 3</li>
-      
-          </ul>
-        </div>
-        <div>
-          <h2 class="footer__headline">Follow Us</h2>
-          <ul class="footer__list">
-            <li>social 1</li>
-            <li>social 2</li>
-            <li>social 3</li>
-          </ul>
-        </div>
-        <div>
-          <h2 class="footer__headline">Contact</h2>
-          <ul class="footer__list">
-            <li>Adress</li>
-            <li>Phone</li>
-            <li>Email</li>
-            <li>Website</li>
-          </ul>
-        </div>
-      </footer>
+    </footer>
     </body>
   </html>

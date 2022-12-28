@@ -36,7 +36,9 @@
       <div class="containter">
         <div class="contactInfo">
           <div class="box">
-            
+            <div iframe-container>
+              <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.6910888697944!2d-0.17598812320171436!3d51.518883109864284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ab3c98d95fb%3A0x923b02cefd3a9f02!2s5%20Merchant%20Sq%2C%20London%20W2%201BQ!5e0!3m2!1sen!2suk!4v1671098317817!5m2!1sen!2suk" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </iframe>
+            </div>
             <div class="text">
               <h3><Address</h3>
               <p>
@@ -66,48 +68,79 @@
             </div>
           </div>
         </div>
-          <div class="contactForm">
-            <form>
+        <div id="container-contactForm">
+            <form action="action_page.php">
               <h2> Book Your Table</h2>
-              <div class="inputBox">
-            
-                <input type="number" id="guests" name="total_guests" placeholder="6" min="1" max= "6" required>
-                <span>Number of Guests</span>
+              <div class="row">
+                <div class="col-25">
+                  <label for="nguest">Number of Guests</label>
+                </div>
+                  <div class="col-75">
+                <input type="number" id="nguest" name="total_guests" placeholder="6" min="1" max= "6" required>  
               </div>
-              <div class="inputBox">
+              </div>
+      
+              <div class="row">
+                <div class="col-25">
+                <label for="date">Date</label>
+              </div>
+                <div class="col-75">
                 <input type="date" id="booking-date" name="date" required>
-                <span>Date</span>
+              </div> 
               </div>
-              <div class="inputBox">
+              <div class="row">
+                <div class="col-25">
+              <label for="time">Time</label>
+            </div>
+            <div class="col-75">
               <input type="time" id="appt" name="appt"
                min="12:00" max="22:00" required>
-               <span>Time</span>
+            </div>
               </div>
               
-              <div class="inputBox">
+              <div class="row">
+                <div class="col-25">
+                <label for="full_name">Full Name</label>
+              </div>
+                <div class="col-75">
                 <input type="text" placeholder="Full name" required="required">
-                <span>Full Name</span>
               </div>
-              <div class="inputBox">
+              </div>
+              <div class="row">
+                <div class="col-25">
+                <label for="email">Email</label>
+              </div>
+                <div class="col-75">
                 <input type="text" placeholder="Email"required="required">
-                <span>Email</span>
               </div>
-              <div class="inputBox">
-                <input type="tel" placeholder="Phone" id="phone" name="phone"
-                required>
-                 <span>Phone</span>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="phone">Phone</label>
                 </div>
-              <div class="inputBox">
-                <textarea placeholder="Type your Message..." required="required"></textarea>
-                <span>Type your Message...</span>
+                <div class="col-75">
+                <input type="tel" placeholder="Phone" id="phone" name="phone"
+                required> 
               </div>
-              <div class="inputBox">
+                </div>
+              <div class="row">
+                <div class="col-25">
+                <label for="subject">Type your Message...</label>
+              </div>
+              <div class="col-75">
+                <textarea placeholder="Type your Message..." required="required"></textarea>
+              </div>
+            </div>
+              <div class="row">
                 <input id="submit" type="submit" name="" value="Submit">
               </div>
             </form>
           </div>
         </div>
+      </div>
         </section>
+    
+          
     
     <footer class="page-footer"> 
       <div class="containter-footer">

@@ -164,10 +164,10 @@ input, select,textarea {
   
     font-size: 20px;
     font-weight: 300;
-    color: #ebe5d6;
+    color:  #a01c2e;
     text-align:left;
     margin-top: 10px;
-    background-color: #a01c2e;
+    background-color: #ebe5d6;
     position: relative;
    } 
    .contactInfo{
@@ -181,17 +181,26 @@ input, select,textarea {
    }
 
   .page-footer {
-    color: #ebe5d6;
+    color:  #a01c2e;
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
     padding:3rem 0;
-    background-color: #a01c2e;
+    background-color: #ebe5d6;
+    text-align: center;
+    margin-top: 10px;
 
   }
 
   .page-footer h3 {
-    color:bisque;
+    color:#1a0a02;
     font-size: larger;
     
   }
+  .img-responsive {
+    
+    background-color: #333333;
+  }
+  
+
+

@@ -1,3 +1,5 @@
+/* || General styles */
+
 *,
 *::before,
 *::after
@@ -34,6 +36,8 @@ p {
  line-height:1;
  margin-bottom: 1em;
 }
+/* index html styling … */
+
 .title {
   color: white;
   text-align: center;
@@ -42,7 +46,6 @@ p {
   margin-bottom: 22px;
 }
 
-  
   
 .home {
   height: 100vh;
@@ -103,6 +106,8 @@ button {
   cursor: pointer;
 }
 
+/* links styling */
+
 a {
   text-decoration: none;
   display: inline-block;
@@ -146,6 +151,9 @@ a:hover {
   justify-content:left;
 }
 
+
+/* || Header and Main Navigation */
+
 li {
   color: rgb(26, 10, 2);
   background: #1a0a02;
@@ -185,6 +193,7 @@ ul li ul:focus {
    opacity: 5;
    display: block;
 }
+ /* || Gallery page styling */
 
 .container {
   /*width: 100%;*/
@@ -238,6 +247,7 @@ ul li ul:focus {
   grid-row-start: 3;
   grid-row-end: 6;
  }
+/* || Menu Page styling */
  h2 {
   text-align: center;
  }
@@ -464,9 +474,9 @@ margin: 5px auto 0;
 padding: 16px 30px;
 cursor: pointer;
 }
+/* || Media Quieries */
 
 @media (min-width: 992px) {
-
 
   .menu, iframe {
     font-size: 16px;
@@ -485,3 +495,10 @@ cursor: pointer;
       margin-top: 0;
     }
   }
+ @media screen and (max-width:800px) {
+  
+  .middle-line {
+   
+   display:none;
+  }
+}

@@ -375,7 +375,7 @@ ul li ul:focus {
 /* || Page Footer styling */
 
    .page-footer {
-    color:  #a01c2e;
+    color:#a01c2e;
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
@@ -384,11 +384,7 @@ ul li ul:focus {
     text-align: center;
   }
 
-  .page-footer h3, p {
-    color:#1a0a02;
-    font-size:large; 
-  }
-
+ 
   .page-footer-index {
     color:  #ebe5d6; 
     padding:3rem 0;
@@ -406,7 +402,7 @@ ul li ul:focus {
     gap: 50px;
   }
 
-  .page-footer-index h3,p {
+  .page-footer-index {
 
     color:#fff;
     font-size: 17px;
@@ -446,7 +442,7 @@ cursor: pointer;
 }
   @media screen and (max-width:600px) {
 
-    body,  {
+    body{
       flex-direction:column;  
     }
   }
@@ -473,6 +469,8 @@ cursor: pointer;
 }
 @media screen and (max-width: 700px) {
   .container1 {
-   flex-direction: row;    
+      width: 100%;
+      margin-top: 0;
+      flex-direction: column; 
+    }   
   }
-}

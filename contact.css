@@ -9,7 +9,7 @@
 
 body {
     font-weight: 400;
-    font size: 1.3125em;
+    font-size: 1.3125em;
     line-height: 1.6;
     background-color:rgb(26, 10, 2) ;
     color: white;
@@ -94,7 +94,7 @@ input, select,textarea {
     display:inline-block;
   }
 
-  .container-contactForm, {
+  .container-contactForm {
     border-radius: 5px;
     padding: 20px;
    
@@ -166,7 +166,7 @@ input, select,textarea {
     margin-top: 10px;
     background-color: #ebe5d6;
     position: relative;
-    
+
    } 
    .contactInfo{
     text-align: center;
@@ -200,6 +200,8 @@ input, select,textarea {
     background-color: #333333;
   }
   
+
+
 
 
 

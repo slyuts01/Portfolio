@@ -23,8 +23,7 @@
               <li id="menu"><a class="selected" href="menu.html">Menu</a></li>
               <li id="gallery"><a href="gallery.html">Gallery</a></li>
               <li id="contact"><a href="contact.html">Contact Us</a></li> 
-              <a href="index.html"></a><img id="logo" src="icons/logo.png" alt="Website logo" height="140px" width="150px">
-                 
+              <a href="index.html"><img id="logo" src="icons/logo.png" alt="Website logo" height="140px" width="150px"></a>         
           </ul>
       </nav>
     </header>
@@ -35,7 +34,10 @@
         </h2>
         <div class="menu-group">
           <div class="menu-item">
-            <img class="menu-item-image" src="image/cheese-1371196_1920.jpg" height=600px width=400px alt="Charcuterie Board">
+            <picture>
+            <source type="image/avif" srcset="image/cheese-1371196_1920.avif"/>
+            <img loading="lazy" class="menu-item-image" src="image/cheese-1371196_1920.jpg" height=600px width=400px alt="Charcuterie Board">
+          </picture>
             <div class="menu-item-text">
               <h3 class="menu-item-heading">
                 <span class="menu-item-name">Charcuterie Board</span>
@@ -47,7 +49,10 @@
             </div>
           </div>
           <div class="menu-item">
-            <img class="menu-item-image" src="image/bread-1281053.jpg" height=600px width=400px alt="Saucisson">
+            <picture>
+            <source type="image/avif" srcset="image/bread-1281053.avif"/>
+            <img loading="lazy" class="menu-item-image" src="image/bread-1281053.jpg" height=600px width=400px alt="Saucisson">
+            </picture>
             <div class="menu-item-text">
               <h3 class="menu-item-heading">
                 <span class="menu-item-name">Saucisson</span>
@@ -64,7 +69,10 @@
         </h2>
         <div class="menu-group">
           <div class="menu-item">
-            <img class="menu-item-image" src="image/fig-3640553_1920.jpg" height=600px width=400px alt="Brie De Meaux">
+            <picture>
+            <source type="image/avif" srcset="image/fig-3640553_1920.avif"/>
+            <img loading="lazy" class= "menu-item-image" src="image/fig-3640553_1920.jpg" height=80px width=80px alt="Brie De Meaux"/>
+            </picture>
             <div class="menu-item-text">
               <h3 class="menu-item-heading">
                 <span class="menu-item-name">Brie De Meaux</span>
@@ -76,7 +84,10 @@
             </div>
           </div>
           <div class="menu-item">
-            <img class="menu-item-image" src="image/canape-2802_1920.jpg" height=600px width=400px alt="Foie Gras">
+            <picture>
+              <source type="image/avif" srcset="image/canape-2802_1920.avif"/>
+              <img loading="lazy" class="menu-item-image" src="image/canape-2802_1920.jpg" height=80px width=80px alt="Foie Gras"> 
+            </picture>
             <div class="menu-item-text">
               <h3 class="menu-item-heading">
                 <span class="menu-item-name">Foie Gras</span>
@@ -88,14 +99,16 @@
             </div>
           </div>
         </div>
-      
       <h2 class="menu-group-heading">
         Homemade Desserts
       </h2>
       <div class="menu-group">
         <div class="menu-item">
-          <img class="menu-item-image" src="image/bread-4077812_1920.jpg" height=600px width=400px alt="Antoinette's chocolate cake">
-          <div class="menu-item-text">
+          <picture>
+          <source type="image/avif" srcset="image/bread-4077812_1920.avif"/>
+          <img loading="lazy" class="menu-item-image" src="image/bread-4077812_1920.jpg" height=80px width=80px alt="Antoinette's chocolate cake">
+        </picture>
+         <div class="menu-item-text">
             <h3 class="menu-item-heading">
               <span class="menu-item-name">Antoinette's chocolate cake</span>
               <span class="menu-item-price">£6.00</span>
@@ -106,7 +119,10 @@
           </div>
         </div>
         <div class="menu-item">
-          <img class="menu-item-image" src="image/eclair-3366430_1920.jpg" height=600px width=400px alt="Caramel & Hazelnut Tart">
+          <picture>
+            <source type="image/avif" srcset="image/eclair-3366430_1920.avif"/>
+          <img loading="lazy" class="menu-item-image" src="image/eclair-3366430_1920.jpg" height=80px width=80px alt="Caramel & Hazelnut Tart">
+        </picture>
           <div class="menu-item-text">
             <h3 class="menu-item-heading">
               <span class="menu-item-name">Caramel & Hazelnut Tart</span>
@@ -121,35 +137,36 @@
     </div>
   </div>
     </div>
-    <footer class="page-footer"> 
+    <footer class="page-footer">
       <div class="containter-footer">
-          <div class="col-1">
-            <h3>Pierre Lotti <br>
-            West London</h3>
-            <p>5 Merchant Square, London, United Kingdom,W2 1AY 
-              <br>
-              <a href="mailto:Pierre.Lotti@restaurant.com">Pierre.Lotti@restaurant.com</a>
-              <br>
-              <a href="tel:02037865012">02037865012</a>
-            </p>
-          </div>
-          <div class="col-2"></div>
-          <h3>Quick Links</h3>
-          <p>
-            <a href="index.html">Home</a>
-             I 
-            <a href="contact.html">Book a table</a>
-             I 
-            <a href="menu.html">Menu</a>
-          </p>
-          <h3>Follow Us</h3>
-          <a class="facebook-icon" rel="nofollow" href="https://www.facebook.com" target="_blank">
-            <img alt="facebook-icon" width="48px" height="48px"  class="img-responsive" src="icons/facebook_maskable_icon_x48.jpg">
-          </a>
-          <a class="instagram-icon" rel="nofollow" href="https://www.instagram.com" target="_blank">
-            <img alt="instagram-icon" width="48px" height="48px" class="img-responsive" src="icons/instagram_maskable_icon_x48.jpg">
-          </a>
-        </div>    
-    </footer>
-    </body>
-  </html>
+      <div class="col-1">
+        <h3>Pierre Lotti <br>
+        West London</h3>
+        <p>5 Merchant Square, London, United Kingdom,W2 1AY 
+          <br>
+          <a href="mailto:Pierre.Lotti@restaurant.com">Pierre.Lotti@restaurant.com</a>
+          <br>
+          <a href="tel:02037865012">02037865012</a>
+        </p>
+      </div>
+      <div class="col-2">
+      <h3>Quick Links</h3>
+      <p>
+        <a href="index.html">Home</a>
+         I 
+        <a href="contact.html">Book a table</a>
+         I 
+        <a href="menu.html">Menu</a>
+      </p>
+      <h3>Follow Us</h3>
+      <a class="facebook-icon" rel="nofollow" href="https://www.facebook.com" target="_blank">
+        <img alt="facebook-icon" width="48px" height="48px"  class="img-responsive" src="icons/facebook_maskable_icon_x48.jpg">
+      </a>
+      <a class="instagram-icon" rel="nofollow" href="https://www.instagram.com" target="_blank">
+        <img alt="instagram-icon" width="48px" height="48px" class="img-responsive" src="icons/instagram_maskable_icon_x48.jpg">
+      </a>
+    </div>
+    </div>    
+</footer>
+</body>
+</html>

@@ -3,10 +3,10 @@
 *::after
  {
    
-  font-family: 'Cinzel', serif;
   box-sizing: border-box;
-  
+  font-family: 'Cinzel', serif;
 }
+
 body {
     font-weight: 400;
     font size: 1.3125em;
@@ -133,8 +133,7 @@ input, select,textarea {
     color: #fff;
     margin: 50px auto 20px;
     padding: 16px 30px;
-    cursor: pointer;
-    
+    cursor: pointer; 
   }
   a {
     text-decoration: none;
@@ -147,8 +146,6 @@ input, select,textarea {
     transition: all 400ms ease-in-out;
     color:grey
   }
-  
-  
 
   @media screen and (max-width:600px) {
     .col-25,.col-75, input[type=submit]{
@@ -169,6 +166,7 @@ input, select,textarea {
     margin-top: 10px;
     background-color: #ebe5d6;
     position: relative;
+    
    } 
    .contactInfo{
     text-align: center;
@@ -202,5 +200,8 @@ input, select,textarea {
     background-color: #333333;
   }
   
+
+
+
 
 
